@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <title>KRepair</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__disc">
+
+                <div class="navbar">
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+                        <div class="menu-items">
+                            <li><a href=""><img src="./image/burger_logo.svg" alt=""></a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Ремонт аудио техники</a></li>
+                            <li><a href="#">Ремонт видео техники</a></li>
+                            <li><a href="#">Ремонт телефонов</a></li>
+                            <li><a href="#">Ремонт электротранспорта</a></li>
+                            <li><a href="#">Прайс-лист</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header__logo"><img src="./image/logo.svg" alt="logo.svg"></div>
+                <div class="header__menu">
+                    <a href="#">Услуги</a>
+                    <a href="#">Прайс-лист</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="header__phone"><a href="tel:+7 499 226 29 28">+7 499 226 29 28</a></div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main__wrap">
+                <div class="main__desc">
+                    <div class="main__desc-title title">Сервисный центр </div>
+                    <div class="main__desc-subtitle">по ремонту техники в Москве</div>
+                    <div class="main__buttons">
+                        <button class="main__desc-button button"><a href="#popup">Получить консультацию</a></button>
+                        <button class="main__desc-button_white">Смотреть прайс-лист</button>
+                    </div>
+                </div>
+                <div class="main__img"><img src="./image/main.webp" alt="main.webp"></div>
+            </div>
+        </div>
+    </section>
+    <div id="popup" class="popup">
+        <a href="#" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <!-- Чтобы не бросало в начало страницы при закрытии Popup привязываем к шапке фиксированной -->
+                <a href="#" class="popup__close">X</a>
+                <div class="popup__title title">Оставьте заявку </div>
+                <div class="popup__text">Мы свяжемся с вами в ближайшее время</div>
+                <form class="form">
+                    <div class="popup__forms">
+                        <div class="form-left">
+                            <input type="text" placeholder="Ваше имя">
+                            <input type="email" placeholder="E-mail">
+                            <input type="tel" placeholder="Телефон*">
+                        </div>
+                        <div class="form-right">
+                            <textarea cols="45" rows="10"
+                                placeholder="Опишите проблему и добавьте видео неисправности"></textarea>
+                            <a href="#" download="" class="form-right-file"><img src="./image/questions.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="form__desc popup__form-desc">
+                        <button class="form__desc-button button">Оставить заявку</button>
+                        <div class="form__desc-text">Нажимая на данную кнопку вы соглашаетесь с политикой
+                            конфиденциальности</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="services">
+        <div class="container">
+            <div class="services__desc">
+                <div class="services__desc-title title">Наши услуги <br> <span>для вас</span> </div>
+                <div class="services__desc-text text">Наша компания оказывает полный спектр услуг, имеет <br>
+                    надежную
+                    репутация, и успела завоевать доверие и <br> расположение своих клиентов </div>
+            </div>
+            <div class="services__items">
+                <div class="services__item">
+                    <div class="services__item-desc">
+                        <div class="services__item-title title">Ремонт <span>аудио техники</span></div>
+                        <div class="services__item-text text">Мы выполняем качественный ремонт аудиотехники, включая
+                            <br>
+                            колонки,
+                            усилители и прочее оборудование, выдаем гарантию <br> и имеем необходимые запчасти в наличие
+                        </div>
+                        <button class="button-small">Подробнее</button>
+                    </div>
+                    <div class="services__item-img"><img src="./image/services_1.webp" alt="services_1.webp"></div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-img"><img src="./image/services_2.webp" alt="services_2.webp"></div>
+                    <div class="services__item-desc">
+                        <div class="services__item-title title">Ремонт <span>фото/видео техники</span></div>
+                        <div class="services__item-text text">Мы выполняем качественный ремонт аудиотехники, включая
+                            <br>
+                            колонки,
+                            усилители и прочее оборудование, выдаем гарантию <br> и имеем необходимые запчасти в наличие
+                        </div>
+                        <button class="button-small">Подробнее</button>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-desc">
+                        <div class="services__item-title title">Ремонт <span>телефонов</span></div>
+                        <div class="services__item-text text">Мы выполняем качественный ремонт аудиотехники, включая
+                            <br>
+                            колонки,
+                            усилители и прочее оборудование, выдаем гарантию <br> и имеем необходимые запчасти в наличие
+                        </div>
+                        <button class="button-small">Подробнее</button>
+                    </div>
+                    <div class="services__item-img"><img src="./image/services_3.webp" alt="services_3.webp"></div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-img"><img src="./image/services_4.webp" alt="services_4.webp"></div>
+                    <div class="services__item-desc">
+                        <div class="services__item-title title">Ремонт <span>электротранспорта</span></div>
+                        <div class="services__item-text text">Мы выполняем качественный ремонт аудиотехники, включая
+                            <br>
+                            колонки,
+                            усилители и прочее оборудование, выдаем гарантию <br> и имеем необходимые запчасти в наличие
+                        </div>
+                        <button class="button-small">Подробнее</button>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__item-desc">
+                        <div class="services__item-title title">Ремонт <span>телевизоров</span></div>
+                        <div class="services__item-text text">Мы выполняем качественный ремонт аудиотехники, включая
+                            <br>
+                            колонки,
+                            усилители и прочее оборудование, выдаем гарантию <br> и имеем необходимые запчасти в наличие
+                        </div>
+                        <button class="button-small">Подробнее</button>
+                    </div>
+                    <div class="services__item-img"><img src="./image/services_5.webp" alt="services_5.webp"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits__desc">
+                <div class="benefits__desc-title title">Наши <span>Преимущества</span> </div>
+                <div class="benefits__desc-text text">Сервисный центр KRepair является клиентоориентированным, на первом
+                    месте у нас гарантированное качественное и надежное решение задач клиента</div>
+            </div>
+            <div class="benefits__items">
+                <div class="benefits__item">
+                    <div class="benefits__item-logo"><img src="./image/benefits1.svg" alt="benefits1.svg"></div>
+                    <div class="benefits__item-title">Удаленная диагностика </div>
+                    <div class="benefits__item-text">Проведем предварительную диагностику по видео с неисправностью от
+                        клиента и сориентируем по стоимости ремонта</div>
+                </div>
+                <div class="benefits__item benefits__item-grey">
+                    <div class="benefits__item-logo"><img src="./image/benefits2.svg" alt="benefits2.svg"></div>
+                    <div class="benefits__item-title">Покажем причины неисправности </div>
+                    <div class="benefits__item-text">Сделаем бесплатную диагностику и предоставим видео запись. Инжинер
+                        даст комментарии о причинах неисправности, чтобы у вас не осталось сомнений</div>
+                </div>
+                <div class="benefits__item benefits__item-pink">
+                    <div class="benefits__item-logo"><img src="./image/benefits3.svg" alt="benefits3.svg"></div>
+                    <div class="benefits__item-title">Прозрачная цена</div>
+                    <div class="benefits__item-text">Заранее согласуем цену, честную и конкурентную, которая
+                        соответствует цене в прайс-листе на нашем сайте </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="brands">
+        <div class="container">
+            <div class="brands__title title">Мы работаем с этими брендами
+                <span>и не только</span>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands1.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands2.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands3.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands4.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands5.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands6.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands7.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands8.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands9.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands10.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands11.png" alt="brands"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img"> <img src="./image/brands/brands12.png" alt="brands"></div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__title">
+                <span class="title">Отзывы наших</span>
+                <span class="title-red">клиентов</span>
+            </div>
+            <div class="reviews__items">
+                <div class="reviews__item">
+                    <div class="reviews__item-title">
+                        <div class="reviews__item-title-name">Анастасия</div>
+                        <div class="reviews__item-title-date">Дата: 2022-02-23</div>
+                        <div class="reviews__item-title-img"><img src="./image/reviews1.svg" alt="reviews"></div>
+
+                    </div>
+                    <div class="reviews__item-text">
+                        <p>Спасибо большое сервисному центру. Удобный график работы. Можно записаться через
+                            социальные сети. Дают гарантию,что самое главное ...
+                        </p>
+                    </div>
+                    <div class="reviews__item-star">
+                        <a href="#" class="reviews__item-star-link">Читать полностью</a>
+                        <div class="reviews__item-star-stars"><img src="./image/stars.webp" alt="stars"></div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-title">
+                        <div class="reviews__item-title-name">Ирек</div>
+                        <div class="reviews__item-title-date">Дата: 2022-07-21</div>
+                        <div class="reviews__item-title-img"><img src="./image/reviews2.svg" alt="reviews"></div>
+
+                    </div>
+                    <div class="reviews__item-text">
+                        <p>Спасибо большое сервисному центру. Удобный график работы. Можно записаться через
+                            социальные сети. Дают гарантию,что самое главное ...
+                        </p>
+                    </div>
+                    <div class="reviews__item-star">
+                        <a href="#" class="reviews__item-star-link">Читать полностью</a>
+                        <div class="reviews__item-star-stars"><img src="./image/stars.webp" alt="stars"></div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-title">
+                        <div class="reviews__item-title-name">Евгения</div>
+                        <div class="reviews__item-title-date">Дата: 2022-05-22</div>
+                        <div class="reviews__item-title-img"><img src="./image/reviews1.svg" alt="reviews"></div>
+
+                    </div>
+                    <div class="reviews__item-text">
+                        <p>Спасибо большое сервисному центру. Удобный график работы. Можно записаться через
+                            социальные сети. Дают гарантию,что самое главное ...
+                        </p>
+                    </div>
+                    <div class="reviews__item-star">
+                        <a href="#" class="reviews__item-star-link">Читать полностью</a>
+                        <div class="reviews__item-star-stars"><img src="./image/stars.webp" alt="stars"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="container">
+            <div class="questions__desc">
+                <div class="questions__title">
+                    <span class="title">У вас остались </span>
+                    <span class="title-red">вопросы?</span>
+                </div>
+                <div class="questions__text">Оставьте заявку, мы свяжемся с вами <br> и ответим на них</div>
+            </div>
+            <form class="form">
+                <div class="forms">
+                    <div class="form-left">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="email" placeholder="E-mail">
+                        <input type="tel" placeholder="Телефон*">
+                    </div>
+                    <div class="form-right">
+                        <textarea cols="45" rows="10"
+                            placeholder="Опишите проблему и добавьте видео неисправности"></textarea>
+                        <a href="#" download="" class="form-right-file"><img src="./image/questions.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="form__desc">
+                    <button class="form__desc-button button">Оставить заявку</button>
+                    <div class="form__desc-text">Нажимая на данную кнопку вы соглашаетесь с политикой
+                        конфиденциальности</div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="map">
+        <div style="position:relative;overflow:hidden;"><a
+                href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
+                href="https://yandex.ru/maps/213/moscow/house/ulitsa_sushchyovskiy_val_5/Z04Ycw5iTUMDQFtvfXt4dXRiZQ==/?indoorLevel=1&ll=37.594505%2C55.793761&utm_medium=mapframe&utm_source=maps&z=17.41"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe
+                src="https://yandex.ru/map-widget/v1/-/CCUVeHBM-D" width="100%" height="670" frameborder="1"
+                allowfullscreen="true" style="position:relative;"></iframe></div>
+        <div class="map__desc">
+            <div class="map__desc-logo"><img src="./image/map_logo.svg" alt=""></div>
+            <div class="map__desc-text">Москва, ул. Сущевский вал д.5
+            </div>
+            <div class="map__desc-mail">info@krepair.ru</div>
+            <div class="map__desc-phone">+7 499 226 29 28</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__item footer__item-img"><img src="./image/footer_logo.svg" alt="footer_logo"></div>
+                <div class="footer__item">
+                    <ul>
+                        <li><a href="#">Прайс-лист</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Ремонт аудио техники</a></li>
+                        <li><a href="#">Ремонт видео техники</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <ul>
+                        <li><a href="#">Ремонт телефонов</a></li>
+                        <li><a href="#">Ремонт электротранспорта</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./swiper-bundle.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

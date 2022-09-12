@@ -1,0 +1,81 @@
+.map {
+    position: relative;
+
+    &__desc {
+        padding: 50px 23px 50px 54px;
+        background-color: #525252;
+        border-radius: 15px;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        &-logo img {
+            width: 150px;
+            height: 49px;
+        }   
+        &-text {
+            font-size: 16px;
+            line-height: 1.75;
+            letter-spacing: -0.05em;
+            color: #EFEFEF;
+        }
+        &-mail {
+            font-size: 16px;
+            line-height: 1.75;
+            letter-spacing: -0.05em;
+            text-decoration-line: underline;
+            color: #EFEFEF;
+        }
+        &-phone {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.75;
+            letter-spacing: -0.05em;
+            color: #DEDCDC;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .map {
+        max-height: 527px;
+        position: relative;
+    
+        &__desc {
+            padding: 40px 20px 40px 40px;
+            &-logo img {
+                width: 150px;
+                height: 49px;
+            }   
+        }
+    }
+}
+
+
+
+@media (max-width:480px)  {
+    .map {
+        max-height: 338px;
+        position: relative;
+        &__desc {
+            width: 100%;
+            top: -300px;
+            left: 0;
+            align-items: center;
+            gap: 20px;
+          
+            &-text {
+                font-size: 18px;
+            }
+            &-mail {
+                font-size: 18px;
+            }
+            &-phone {
+                font-weight: 700;
+                font-size: 22px;
+            }
+        }
+    }
+}

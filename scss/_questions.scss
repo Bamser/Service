@@ -1,0 +1,200 @@
+.questions {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background-color: #525252;
+    &__title span {
+        display: block;
+    }
+    &__desc {
+        display: flex;
+    }
+    &__text {
+        margin-left: 132px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.75;
+        letter-spacing: -0.05em;
+        color: #F7F5F5;
+    }
+}
+.form {
+    margin-top: 60px;
+    background-color: #F7F5F5;
+    border-radius: 20px;
+    &-left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        & input {
+            padding: 13px 250px 16px 25px;
+            border: 2px solid #D9D9D9;
+            border-radius: 10px;
+            background-color: transparent;
+            &::placeholder {
+                font-size: 16px;
+                line-height: 1.75;
+                letter-spacing: -0.05em;
+                color: #817979;
+            }
+        }
+    }
+    &-right {
+        position: relative;
+        &-file {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            background-color: #D9D9D9;
+        }
+    & textarea {
+        border: 2px solid #D9D9D9;
+        border-radius: 10px;
+        background-color: transparent;
+        &::placeholder {
+            padding-left: 10px;
+            font-size: 16px;
+            line-height: 1.75;
+            letter-spacing: -0.05em;
+            color: #817979;
+        }
+    }
+}
+&__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-button {
+        padding: 16px 45px;
+        &:hover {
+            padding: 14px 45px;
+            color: #F03957;
+            background-color: #FFFFFF;
+          }
+    }
+    &-text {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        max-width: 209px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.75;
+        letter-spacing: -0.05em;
+    }
+}
+}
+.forms {
+    padding: 80px 95px;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+
+
+
+@media (max-width:768px) {
+    .questions {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .form {
+        margin-top: 50px;
+        &-left {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            & input {
+                padding: 14px 120px 14px 12px;
+                &::placeholder {
+                    font-size: 12px;
+                }
+            }
+        }
+        &-right {
+            position: relative;
+            &-file {
+                position: absolute;
+                bottom: 30px;
+                right: 30px;
+            }
+        & textarea {
+            max-width: 306px;
+            &::placeholder {
+                font-size: 12px;
+            }
+        }
+    }
+    &__desc {
+        &-button {
+            padding: 12px 26px;
+            &:hover {
+                padding: 10px 36px;
+              }
+        }
+        &-text {
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 30px;
+            font-size: 12px;
+        }
+    }
+    }
+    .forms {
+        padding: 25px 35px;
+        }
+}
+
+
+
+@media (max-width:480px) {
+    .questions {
+        padding-top: 60px;
+        padding-bottom: 330px;
+        
+        &__desc {
+            text-align: center;
+            flex-direction: column;
+        }
+        &__text {
+            margin-left: 0;
+        }
+    }
+    .form {
+        margin-top: 50px;
+        &-left {
+            gap: 15px;
+            & input {
+                padding: 15px 160px 15px 15px;
+                &::placeholder {
+                    font-size: 18px;
+                }
+            }
+        }
+        &-right {
+            position: relative;
+            &-file {
+                position: absolute;
+                bottom: 30px;
+                right: 30px;
+                        }
+        & textarea {
+            max-width: 365px;
+            &::placeholder {
+                font-size: 18px;
+            }
+        }
+    }
+    &__desc {
+        &-text {
+            margin-bottom: 30px;
+            font-size: 12px;
+        }
+    }
+    }
+    .forms {
+        padding: 30px 40px;
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+}
